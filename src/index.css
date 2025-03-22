@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Custom breakpoints */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Adjust font sizes for mobile */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.25rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Fix for bottom navigation spacing */
+@media (max-width: 768px) {
+  .pb-safe {
+    padding-bottom: 5rem;
+  }
+}
+
+/* Ensure proper spacing on mobile */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* Prevent content from being hidden under bottom navigation */
+.content-with-bottom-nav {
+  padding-bottom: 72px;
+}
+ 
+
+
+
